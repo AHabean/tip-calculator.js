@@ -1,0 +1,89 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: linear-gradient(to right top, #dbe7f2, #c5d3d7, #b4bfbc, #a5a9a6, #959593);
+}
+
+.container {
+    width: 300px;
+    height: 100%; 
+    border: 2px solid rgb(153, 158, 157);
+    background-image: linear-gradient(to left bottom,#a5a9a6, #959593);
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 20px;
+    line-height: 10px;
+    padding: 0;
+    margin: 128px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.tipTitle {
+    width: 300px;
+    line-height: 10px;
+    background-color: rgb(133, 133, 133);
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.inputBox{
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn {
+    margin: 30px 10px 10px 20px;
+    padding: 5px;
+    width: 110px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(240, 68, 25);
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.reset {
+    margin: 20px 10px 10px 20px;
+    background-color: rgb(69, 190, 130);
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.7rem 1.4rem 0 rgba(37, 48, 52, 0.5);
+    transform: translateY(-0.2rem);
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.outputResult {
+    margin: 15px;
+    font-size: 16px;
+    font-weight: 600;   
+    line-height: 25px; 
+}
+
+.alignemnt {
+    border: 1px solid rgb(114, 97, 97);
+    background-color: rgb(245, 252, 255);
+    border-radius: 3px;
+    width: 100px;
+    text-align: center;
+    float: right;
+}
+
+.spaceDown {
+    margin-bottom: 10px;
+    padding: 10px;
+}

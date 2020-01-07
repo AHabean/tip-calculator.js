@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tipTitle">
+            <h2>Tip Calculator</h2>
+        </div>
+        <div>
+            <div class="outputResult">
+                <h3>Tip per person &#8364;: <span class="alignemnt" id="tipPerson">2</span> </h3>
+                <h3>Total tip &#8364;: <span class="alignemnt" id="totalTip">6</span> </h3>
+                <h3>Total Amount &#8364;: <span class="alignemnt" id="totalAmount">66</span></h3>
+            </div>
+            <div>
+                <button class="btn" id="calculateBtn" type="button">Calculate</button>
+                <button class="btn reset" id="resetBtn" type="reset" value="Reset">Reset</button>
+            </div>
+            <div>
+                <h3>How much was your bill?</h3>
+                <h3> &#8364; <input class="inputBox" id="bill" type="number" name="value" placeholder="Enter your bill amount"/></h3>
+            </div>
+            <div>
+                <form>
+                    <h3>How was your service?</h3>
+                    <select class="inputBox" id="tipPercentage">
+                        <option disabled selected value="0">  Choose an option from the list below  </option>
+                        <option value="0.3">30&#37; &#45; Excellent</option>
+                        <option value="0.2">20&#37; &#45; Good</option>
+                        <option value="0.15">15&#37; &#45; OK</option>
+                        <option value="0.1">10&#37; &#45; Bad</option>
+                        <option value="0.05">5&#37; &#45; Awful</option>
+                    </select>
+                </form>   
+            </div>
+            <div class="spaceDown">
+                <h3>Split by number of people:</h3>
+                <input class="inputBox" id="splitByNumOfPeople" type="text" placeholder="0"/>
+            </div>
+        </div>
+    </div>    
+</body>
+
+<script type="text/javascript" src="tipCalculator.js"></script>
+
+
+</html>
